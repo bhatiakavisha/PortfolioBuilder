@@ -423,7 +423,10 @@ const PortfolioCard = ({
       <Header />
 
       {/* navbar edit/options */}
-      <div className="w-full text-sm md:text-lg z-10 flex gap-4 px-2 md:px-10 py-3 bg-gray-200">
+      <div
+        id="main-content"
+        className="w-full text-sm md:text-lg z-10 flex gap-4 px-2 md:px-10 py-3 bg-gray-200"
+      >
         <button
           className="cursor-pointer px-2 md:px-3 py-1 rounded-sm"
           style={{
